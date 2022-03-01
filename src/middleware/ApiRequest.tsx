@@ -1,4 +1,5 @@
-const API_KEY = process.env.REACT_APP_UNSPLASH_API_KEY; //apikey
+//const API_KEY = process.env.REACT_APP_UNSPLASH_API_KEY; //apikey, setup for .env
+const API_KEY = 'Leuv9hsZjxwo0UGA22z77yGBMdXZa_cGDmXBeIpgzuk'; //public API key
 const url = "https://api.unsplash.com/search";
 
 //API query 
