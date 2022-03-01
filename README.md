@@ -5,6 +5,8 @@ Simple Image Search TS-React webapp using the Unsplash API.
 App can be built with `npm start` in `image-search` folder
 
 Requires Unsplash API key, a public one is provided for Heroku Use.
+API calls are limited to 50 per hour currently, which will return a 403 error and not load images if this is expended.
+This is the reason images may stop displaying.
 
 Images are displayed in pages of responsive columns, 5 across, 4 down.
 Scrolling to the bottom triggers the next page to load in automatically.
