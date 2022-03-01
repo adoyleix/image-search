@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  overflow-x: hidden;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background: #555;
+  margin-top: 10px;
+  position: fixed;
+  top: -10px;
+  left: 0px;
+  z-index: 2;
+}
+
+#searchBox {
+  margin: auto;
+  width: auto;
+  padding-left: 40%;
+  padding-top: 10px;
+}
+
+#searchBar {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+}
+
+#imgSearch {
+  display: inline;
+  margin-left: 10px;
+}
+
+#searchButton {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+#disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#test {
+  position: relative;
+  top: 120px;
+}
+
+.image {
+  cursor: pointer;
+}
+
+#grid {
+  width: 100%;
+  margin-top: 5%;
+  overflow: hidden;
+}
+
+#focusWrapper {
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  height: 70%;
+  text-align: center;
+  z-index: 2;
+}
+#focusedImg {
+  width: 100%;
+  height: 100%;
+  border: solid 10px;
+  border-radius: 10%;
+}
+
+#focusedLink {
+  margin: auto;
+  padding: 1%;
+  text-align: center;
+  width: 50%;
+  display: inline;
+  position: relative;
+  bottom: 6%;
+  left: 2%;
+  height: 10%;
+  border: 1px solid;
+  border-radius: 2px;
+  background-color: #777;
+  color: black;
+}
+
+#closeButton {
+  size: 30px;
+  color: white;
+  position: relative;
+  top: 10%;
+  left: 47%;
+  font-size: 20px;
+  padding: 16px 24px;
+  border-radius: 50%;
+}
+#closeButton:hover {
+  background-color: rgb(235, 49, 49);
+  opacity: 50%;
+}
